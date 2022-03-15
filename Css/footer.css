@@ -1,0 +1,38 @@
+/* Footer */
+
+.footer{
+    background: #1c1d21;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.footer-link{
+    list-style: none;
+    margin: 20px 0;
+}
+
+.footer-link li{
+    display: inline-block;
+}
+
+.footer-link li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #6195ff;
+    color: white;
+    border-radius: 3px;
+    margin: 4px;
+}
+
+.footer-link li a i{
+    line-height: 50px;
+}
+
+.copyright{
+    color: #b9bfc5;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+

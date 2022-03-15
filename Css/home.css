@@ -1,0 +1,51 @@
+/* Home */
+
+.home {
+    height: 100vh;
+    background-image: url(../images/background/background1.webp);
+    background-size: cover; /*css3*/
+    position: relative;
+}
+
+.home-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+
+.home-title{
+    color: white;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.home-desc{
+    color: white;
+    margin: 20 0;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+}
+
+.home .btn {
+    min-width: 160px ;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.home .btn-started{
+    margin-right: 10px;
+    background-color: white;
+}
+
+.home .btn-learnmore{
+    background-color: #6195ff;
+    color: white;
+}

@@ -1,0 +1,43 @@
+/* Testm section */
+
+.testm{
+    position: relative;
+    background-image: url(../images/background/background3.webp);
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.testm-content{
+    overflow: hidden;
+    padding: 120px 0;
+    width: 65%;
+    margin: auto;
+}
+
+.testm-item{
+    width: 50%;
+    float: left;
+    color: #EEE
+}
+
+.testm-item .testmtoplayer{
+    padding: 10px 2px 40px 100px;
+    position: relative;
+}
+
+.testm-item .testmtoplayer img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+}
+
+.testm-item .testmtoplayer h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.testm-item .testmtoplayer span {
+    color: #6195ff;
+    font-size: 17px;
+}
